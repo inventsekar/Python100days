@@ -1,0 +1,30 @@
+# Day 1 - inventsekar
+# downloaded Python 3.12.1 and installed on my windows 10 
+# got the GoalKicker python pdf book - "Python Notes for Professionals"
+
+
+>>> print(hello, world)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined. Did you mean: 'help'?
+>>> print('hello, world)
+  File "<stdin>", line 1
+    print('hello, world)
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print('hello, world')
+hello, world
+>>> print('hello' world')
+  File "<stdin>", line 1
+    print('hello' world')
+                       ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print('hello" world')
+hello" world
+>>> print("hello world")
+hello world
+>>> print("hello > world")
+hello > world
+>>> print('hello > world')
+hello > world
+>>>
